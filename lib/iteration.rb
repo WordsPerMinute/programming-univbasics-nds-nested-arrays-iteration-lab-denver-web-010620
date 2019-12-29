@@ -10,8 +10,6 @@ def join_ingredients(src)
   multiplePizzaPref = []
   while row_index < src.count do
       innerPizzaPref = "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
-      #while element_index < spice_rack[row_index].count do
-      #end
       multiplePizzaPref << innerPizzaPref
       row_index += 1
   end
