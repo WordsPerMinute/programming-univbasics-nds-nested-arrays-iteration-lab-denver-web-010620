@@ -15,7 +15,7 @@ def join_ingredients(src)
       multiplePizzaPref << innerPizzaPref
       row_index += 1
   end
-  
+
 end
 
 def find_greater_pair(src)
